@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    height: 35px;
+    width: 100%;
+    background-color: #132645;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+
+.logo img {
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.rightnav {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.nav h2 {
+    font-size: 4vw;
+    font-weight: 700;  
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FF4057;
+    font-size: 2vw;
+}
+
+.nav i {
+    font-size: 2vw;
+    font-weight: 300;
+    display: none;
+}
+
+.content {
+    height: calc(100%-66px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #dadada;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 7vh;
+}
+
+.left h1 {
+    font-size: 6vw;
+    line-height: 5.5vw;
+    color: #132645;
+    margin-left: 3.5vw;
+    margin-top: -1vw;
+}
+
+.left h1 span {
+    color: #FF4057;
+}
+
+.left p {
+    font-size: 1.7vw;
+    width: 75%;
+    margin-left: 3.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+button {
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    background-color: #132645;
+    color: #FF4057;
+    border: none;
+    border-radius: 2px;
+    font-weight: 1000;
+    margin-left: 12vw;
+}
+
+.right {
+    height: 100%;
+    width: 45%;
+}
+
+.right img {
+    margin-top: 2vw;
+    margin-right: 2vw;
+    width: 95%;
+    height: 90%;
+}
+
+.footer {
+    height: 31px;
+    width: 100%;
+    background-color: #132645;
+}
+
+.footer h4 {
+    font-size: 1.6vw;
+    color: #FF4057;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    margin: 0;
+}
+
+.footer h5 {
+        font-size: 1.6vw;
+        color: #FF4057;
+        padding-top: 1vw;
+        padding-left: 3vw;
+        margin-top: -1vw;
+}
+
+@media (max-width: 300px) {
+    nav {
+        padding: 0 5vw;
+    }
+   
+    nav h2 {
+        font-size: 5vw;
+    }
+
+    nav h4 {
+        font-size: 4vw;
+        display: none;
+    }
+
+    nav i {
+        display: block;
+        font-size: 4vw;
+    }
+
+}
+
